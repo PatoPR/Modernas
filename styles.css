@@ -1,0 +1,52 @@
+
+.ubc-logo {
+  position: center;
+  width: 55px;
+  height: 55px;
+}
+.ubc-address{
+  position: relative;
+  color: white;
+
+
+/* Footer Styles */
+footer {
+  position: bottom;
+  background-color: #f2f2f2;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: whitesmoke;
+  color: black;
+  text-align: center; 
+  display: inline-block;
+  margin-top: 40px;
+}
+#homeboxes:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.ubc-logo {
+  width: 70px;
+  height: 70px;
+}
+
+.canadian-flag {
+  width: 500px;
+  height: 100px;
+}
+
+.footer-left,
+.footer-right {
+  display: flex;
+  align-items: center;
+}
+
