@@ -1,3 +1,8 @@
+.w3-jumbo{
+  font-size:94px!important;
+  position: sticky;
+  top: 300px; 
+}
 .w3-display-left{
   position:absolute;
   top: 450px;
