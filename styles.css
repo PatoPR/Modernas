@@ -1,14 +1,8 @@
-
 .ubc-logo {
-  position: center;
-  width: 55px;
-  height: 55px;
-}
-.ubc-address{
   position: relative;
-  color: white;
-
-
+  top: 370px;
+  left: 565px;
+}
 /* Footer Styles */
 footer {
   position: bottom;
