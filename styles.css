@@ -1,6 +1,86 @@
+h7{
+  font-size: 16px;
+}
+h6 {
+  font-size: 60px;
+}  
+h5{
+font-size: 60px;
+}
+.fa-desktop:before{
+  position: relative;
+  content:"\f108"
+}
+.fa-sticky-note:before{
+position: relative; 
+content:"\f249"
+}
+.fa-sticky-note-o:before{
+  position: relative;
+  content:"\f24a"
+}
+.w3-bar .w3-button{
+  white-space:normal
+}
+.w3-bar 
+.w3-bar-item{
+  padding:8px 16px;
+  float:left;
+  width:auto;
+  top: 200px;
+  border:none;
+  display:block;
+  outline:0
+}
+.w3-bar{
+  width:100%;
+  top: 100px;
+  overflow:hidden
+}
+.w3-top{
+  top: 0px;
+}
+.w3-center3{
+  left: 700px;
+  font-size: larger;
+}
+.W3-center10{
+  p { font-size: 26px; }
+  position: relative;
+  top: 100px;
+  left: 700px;
+}
+.w3-large{
+  font-size:18px!important;
+  position: relative;
+  top: 250px; 
+  left: 30px;
+}
+.w3-large1{
+  font-size:18px!important;
+  position: relative;
+  top: 25px; 
+  left: 10px;
+}
+.w3-large2{
+  font-size:18px!important;
+  position: relative;
+  top: 7px; 
+  left: 10px;
+}
+.w3-large3{
+  font-size:18px!important;
+  position: relative;
+  top: 7px; 
+  left: 10px;
+}
 .w3-jumbo{
   font-size:94px!important;
   position: sticky;
+  top: 300px; 
+}
+.w3-jumbo1{
+  font-size:94px!important;
   top: 300px; 
 }
 .w3-display-left{
@@ -10,13 +90,29 @@
   transform:translate(0%,-50%);
   -ms-transform:translate(-0%,-50%)
 }
+.w3-sidebar{
+    height:100%;
+    width:200px;
+    background-color:#fff;
+    position:fixed!important;
+    z-index:1;
+    overflow:auto
+}
 .ubc-logo {
+  width: 70px;
+  height: 70px;
   position: relative;
   top: 370px;
   left: 565px;
+  }
+.w3-display-bottomleft{
+  position:absolute;
+  left: 1200px;;
+  margin-top: 500px;
 }
+
 /* Footer Styles */
-footer {
+.footer {
   position: bottom;
   background-color: #f2f2f2;
   left: 0;
@@ -28,31 +124,26 @@ footer {
   display: inline-block;
   margin-top: 40px;
 }
-#homeboxes:after {
-  clear: both;
-  content: "";
-  display: block;
-}
-.footer-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 20px;
-}
-
-.ubc-logo {
-  width: 70px;
-  height: 70px;
-}
-
-.canadian-flag {
-  width: 500px;
-  height: 100px;
-}
-
-.footer-left,
+.ubc-logo2 {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 70px;
+  left: 65px;
+  }
 .footer-right {
-  display: flex;
-  align-items: center;
-}
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 670px;
+  top: -210px;
+  }
+  .ubc-address {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 370px;
+  top: -70px;
+  } 
 
+ 
