@@ -1,3 +1,10 @@
+.w3-display-left{
+  position:absolute;
+  top: 450px;
+  left:0%;
+  transform:translate(0%,-50%);
+  -ms-transform:translate(-0%,-50%)
+}
 .ubc-logo {
   position: relative;
   top: 370px;
